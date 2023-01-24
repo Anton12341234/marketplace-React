@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainCard{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mainHome{
+  background-color: #EEEFF1;
+  padding: 26px;
+}
+
+
+.preloader{
+  width: 100%;
+  height: 100%;
+}
+
+.headerButton{
+  display: flex;
+}
+
+.myButt{
+  width: 100%;
+}
+
+.commentCard{
+  margin: 3%;
+  width: 50%;
+}
+
+.commentCardSend{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3%;
+  padding: 10px;
+  width: 50%;
+}
+
+.messageCardSend{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.commentAvatar{
+  display: flex;
+  align-items: center;
+}
+
+.avatarName{
+  margin-left: 8px;
+}
+
+.comment{
+  padding-left: 4%;
+  padding-bottom: 4%;
+}
